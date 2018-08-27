@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -107,10 +107,10 @@
 <div class="widget-breadcrumb">
   <div class="container">
     <ul class="breadcrumb">
-      <li class="active"><a href="#"><span class="number">1</span>預約類別</a></li>
+      <li><a href="reservation.html"><span class="number">1</span>預約類別</a></li>
       <li><a href="reservation_calendar.html"><span class="number">2</span>選擇日期及時段</a></li>
       <li><a href="reservation_form.html"><span class="number">3</span>個人資料確認</a></li>
-      <li><a href="reservation_confirmation.html"><span class="number">4</span>付款</a></li>
+      <li class="active"><span class="number">4</span>付款</a></li>
     </ul>
    </div>
 </div>
@@ -120,77 +120,49 @@
         <h1 class="sessionTitle">預約參觀</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. <br>Aenean commodo ligula eget dolor.</p>
       </div>
-      <div class="widget-form panel-booking">
+      <div class="widget-form panel-booking widget-calendar booking-form-wrapper">
           <div class="wrapper">
-            <div class="headline text-center"><h2 class="subHead">預 約 類 別</h2></div>
-            <div class="pos-btn">
-              <a href="search_reservation.html" class="btn theme3">
-                <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
-                <div class="btn-wrapper">更改<br>預約</div>
-                <div class="circle"></div>
-              </a>             
-
-            </div>
-            <form>
-              <div class="selection clearfix">
-                <div class="item active">
-                  <div class="descpt">
-                    <div class="cap">團體</div>
-                    <p>最多25人</p>
-                  </div>
-                  <div class="shape"></div>
-                </div>
-                <div class="item">
-                  <div class="descpt">
-                    <div class="cap">個人</div>
-                  </div>
-                  <div class="shape"></div>
-                </div>
-              </div>
-              <div class="selection-headcount">
-                <div class="form-field clearfix">
-                  <div class="col-xs-8 icounter numbers-row">
-                    成人: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
-                  </div>
-                  <div class="col-xs-4 amount text-right">$100HKD (每人)
-                  </div>
-                </div>
-                <div class="form-field clearfix">
-                  <div class="col-xs-8 icounter numbers-row">
-                   小童: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
-                  </div>
-                  <div class="col-xs-4 amount text-right">$100HKD (每人)
-                  </div>
-                </div>
-                <hr>
-                <div class="form-field clearfix discount-question">
-                  <div class="col-xs-12 col-sm-12">
-                   <div class="text-left tnc question"><a class="link">> 使用折扣代碼</a></div>
-                   <div class="text-left tnc cancel"><a class="link"><img src="images/reservation/icon-cancel.png" width="15"> 取消</a></div>
-                  </div>
-                </div>
-                <div class="form-field clearfix discount-section">
-                  <div class="col-xs-6 col-sm-8 icounter">
-                   折扣代碼:  <input type="text" class="input-number discount" name="discount-code" id="discount-code" value="newyear19">
-                  </div>
-                  <div class="col-xs-6 col-sm-4 amount text-right">折扣: <span class="font-black">-$30.00</span> <span class="font-small">HKD</span>
-                  </div>
-                </div>
-                <hr>
-                <div class="form-field clearfix">
-                  <div class="col-xs-4 col-sm-8 icounter">
-                   3位成人
-                  </div>
-                  <div class="col-xs-8 col-sm-4 amount text-right">總數: <span class="font-black">$270.00</span> <span class="font-small">HKD</span>
-                  </div>
-                </div>
-              </div>
-              <div class="text-left tnc"><a href="" class="link">> 更改預約政策</a></div>
-            </form>
-            <div class="btn-wrapper text-center">
-              <a href="" class="theme4 btn"><span class="icon"><img src="images/common/icon-calendar.svg" class="img-fluid"></span>網上預約</a>
-            </div>
-          </div>
+            <div class="headline text-center"><h2 class="subHead">預約資料確認</h2></div>
+			<div class="innerFrame">
+				<div class="booking-form col-xs-12 col-sm-7">
+					<p>交易發生了問題...</p>
+					<hr>
+					<p><span class="error">銀行否認了這筆交易。</span> 请重心在試次。</p>
+					<hr>
+					
+					<div class="clearfix"><b>參觀日期及時段:</b> 15/8/2018 0930</div>
+					<div class="clearfix"><b>參觀人數</b> <b>成人:</b> 2 <b>小童:</b> 30</div>
+					
+					<hr>
+					
+					<!-- START - GROUP BOOKING ONLY -->
+					<div class="clearfix"><b>團體名稱:</b> abc school</div>
+					<!-- END - GROUP BOOKING ONLY -->
+					
+					<div class="clearfix"><b>聯絡人:</b> 王启明先生</div>
+					<div class="clearfix"><b>聯絡電話:</b> 9635-6971</div>
+					<div class="clearfix"><b>登記電郵:</b> test@test.com</div>
+					
+					<hr>
+					
+					<div class="clearfix"><b>參觀日期及時段:</b> 15/8/2018 0930</div>
+					<div class="clearfix"><b>參觀人數</b> <b>成人:</b> 2 <b>小童:</b> 30</div>
+					
+					<hr>
+					
+					<div class="clearfix"><b>已支付費用:</b> HK$ 980.00</div>
+					
+					<hr>
+					
+					<!-- START - GROUP BOOKING ONLY -->
+					<div class="clearfix">
+						<p><a href="reservation_payment_status.html"><img src="images/payment/pp_checkout_ch_lrg_228x44.png"></a></p>
+					</div>
+					<!-- END - GROUP BOOKING ONLY -->
+				</div>
+			
+			</div>
+        </div>
           <div class="pos-item spaceM"><div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div></div>
           <div class="space-box"></div>
           <div class="space-box2"></div>
@@ -257,10 +229,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/hideDiscount.js"></script>
 </body>
 </html>
-<script src="js/jsRegistration.js"></script>
-
 
 
